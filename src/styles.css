@@ -1,1 +1,63 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: hsl(214, 14%, 20%);
+}
+
+#calculadora {
+  height: 70vh;
+  min-height: 500px;
+  border-radius: 20px;
+  overflow: hidden;
+
+}
+
+#botones {
+  user-select: none;
+  border-color: black;
+}
+
+.calc-left-btn:hover {
+  background-color: hsl(208, 7%, 66%);
+  transition: background-color 0.2s;
+
+}
+
+#btns-right {
+  background-color: hsl(108, 72%, 72%);
+}
+
+.calc-right-btn:hover {
+  background-color: hsl(208, 7%, 66%);
+
+  transition: background-color 0.15s;
+}
+
+#linkInicio {
+  color: black;
+  background-color: rgb(241, 241, 241);
+  transition: background-color 0.15s;
+}
+#linkInicio:hover {
+  background-color: rgb(252, 252, 252)
+}
+
+/* Ejercicio 5 lista */
+
+body#lista {
+  background-color: white;
+}
+#lista #linkInicio {
+  color: white;
+  background-color: #333;
+  transition: background-color 0.15s;
+  margin: 1.2rem 0 !important;
+}
+
+
+#lista #linkInicio:hover {
+  background-color: #555;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
